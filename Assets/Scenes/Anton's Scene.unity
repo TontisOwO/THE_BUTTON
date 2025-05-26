@@ -295,9 +295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07abb14cea0f4cf4ba8c35cab1371861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 20
+  movementSpeed: 40
   stopSpeed: 80
-  movementSpeedCap: 12
+  movementSpeedCap: 10
   jumpForce: 15
   scaleFactor: 8
   onGround: 0

@@ -41,6 +41,11 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(StartLoadScene(loadSceneName));
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     IEnumerator StartLoadScene(string sceneToLoad)
     {
         //add reference to player script to play a little animation/move the player into the object before teleporting
