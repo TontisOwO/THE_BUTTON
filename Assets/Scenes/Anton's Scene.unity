@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 146229090}
   - component: {fileID: 146229094}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -294,8 +294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07abb14cea0f4cf4ba8c35cab1371861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 4
+  movementSpeed: 20
   jumpForce: 10
+  scaleFactor: 8
 --- !u!1 &705891654
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,8 +401,8 @@ GameObject:
   - component: {fileID: 1916645286}
   - component: {fileID: 1916645285}
   - component: {fileID: 1916645284}
-  m_Layer: 0
-  m_Name: Square (1)
+  m_Layer: 3
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

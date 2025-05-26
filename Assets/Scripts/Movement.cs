@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     bool jumpStart;
     float jumpTime;
     Vector2 scale;
+    public bool onGround;
 
     void Awake()
     {
@@ -21,12 +22,12 @@ public class Movement : MonoBehaviour
         velocity = transform.position;
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
-            myRigidbody.linearVelocityX = -movementSpeed;
+            myRigidbody.linearVelocityX += -movementSpeed * Time.deltaTime;
         }
 
         if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
-            myRigidbody.linearVelocityX = movementSpeed;
+            myRigidbody.linearVelocityX += movementSpeed * Time.deltaTime;
         }
 
         if ((!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)))
@@ -34,10 +35,11 @@ public class Movement : MonoBehaviour
             myRigidbody.linearVelocityX = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && onGround)
         {
             jumpStart = true;
             myRigidbody.linearVelocityY += jumpForce;
+            onGround = false;
         }
         if (jumpStart)
         {
