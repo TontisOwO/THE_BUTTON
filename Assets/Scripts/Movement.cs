@@ -3,6 +3,8 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] float movementSpeed;
+    [SerializeField] float stopSpeed;
+    [SerializeField] float movementSpeedCap = 4;
     [SerializeField] float jumpForce;
     [SerializeField] float scaleFactor = 8;
     Rigidbody2D myRigidbody;
@@ -20,19 +22,27 @@ public class Movement : MonoBehaviour
     {
         scale = transform.localScale;
         velocity = transform.position;
-        if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && myRigidbody.linearVelocityX >= -movementSpeedCap)
         {
-            myRigidbody.linearVelocityX += -movementSpeed * Time.deltaTime;
+            myRigidbody.linearVelocityX -= movementSpeed * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && myRigidbody.linearVelocityX <= movementSpeedCap)
         {
             myRigidbody.linearVelocityX += movementSpeed * Time.deltaTime;
         }
 
         if ((!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)))
         {
-            myRigidbody.linearVelocityX = 0;
+            switch (myRigidbody.linearVelocityX)
+            {
+                case < 0:
+                    myRigidbody.linearVelocityX += stopSpeed * Time.deltaTime;
+                    break;
+                case > 0:
+                    myRigidbody.linearVelocityX -= stopSpeed * Time.deltaTime;
+                    break;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && onGround)

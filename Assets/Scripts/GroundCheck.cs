@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    Movement movement;
-    void OnCollisionEnter2D(Collision2D other)
+    [SerializeField] Movement movement;
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        movement.onGround = true;
+        if (other.CompareTag("Ground"))
+        {
+            movement.onGround = true;
+        }
     }
 }
