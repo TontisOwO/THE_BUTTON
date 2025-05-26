@@ -1,0 +1,47 @@
+using System.Collections;
+using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.SearchService;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class SceneLoader : MonoBehaviour
+{
+    [SerializeField] ScreenFade myFader;
+
+    [SerializeField] string sceneName;
+
+    [SerializeField] bool debugTrigger = false;
+
+    void Awake()
+    {
+        myFader = GetComponentInParent<ScreenFade>();
+    }
+
+
+    void Update()
+    {
+        if (debugTrigger == true)
+        {
+            StartCoroutine(StartLoadScene(sceneName));
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            StartCoroutine(StartLoadScene(sceneName));
+        }
+    }
+
+    IEnumerator StartLoadScene(string sceneToLoad)
+    {
+        //add reference to player script to play a little animation/move the player into the object before teleporting
+        myFader.StartCoroutine(myFader.FadeOutCoroutine(2));
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(sceneToLoad);
+    }
+
+}
