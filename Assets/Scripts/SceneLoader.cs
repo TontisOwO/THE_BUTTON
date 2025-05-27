@@ -16,7 +16,7 @@ public class SceneLoader : MonoBehaviour
 
     void Awake()
     {
-        myFader = GetComponentInParent<ScreenFade>();
+        
     }
 
 
@@ -34,6 +34,16 @@ public class SceneLoader : MonoBehaviour
         {
             StartCoroutine(StartLoadScene(sceneName));
         }
+    }
+
+    public void ButtonPressed(string loadSceneName)
+    {
+        StartCoroutine(StartLoadScene(loadSceneName));
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
     IEnumerator StartLoadScene(string sceneToLoad)
