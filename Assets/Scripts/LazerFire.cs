@@ -3,15 +3,26 @@ using UnityEngine;
 [RequireComponent (typeof(LineRenderer))]
 public class LazerFire : MonoBehaviour
 {
+    // number Structs
     public bool isActive;
+    [SerializeField] int currentFrame;
     [SerializeField] int reflections;
     [SerializeField] float maxRayLength;
+    [SerializeField] float time;
+    [SerializeField] float animationRate;
+
+    // non-Number Structs
     [SerializeField] Ray ray;
     [SerializeField] RaycastHit hit;
+    [SerializeField] Vector2 offset;
     [SerializeField] Vector3 direction;
     [SerializeField] LayerMask ignoreLayer;
-    [SerializeField] Material myMaterial;
+
+    // components
+    [SerializeField] Material[] myMaterial;
     [SerializeField] Transform targetHitTransform;
+
+    // arrays
     [SerializeField] Transform[] newMirrors;
     [SerializeField] Transform[] oldMirrors;
     [SerializeField] LineRenderer[] myLineRenderer;
@@ -33,15 +44,30 @@ public class LazerFire : MonoBehaviour
 
         if (isActive)
         {
+            time += Time.deltaTime;
+            if (time > animationRate)
+            {
+                time -= animationRate;
+                if (currentFrame < myMaterial.Length - 1)
+                {
+                    currentFrame += 1;
+                }
+                else
+                {
+                    currentFrame = 0;
+                }
+            }
+
             ray = new Ray(transform.position, transform.up);
             float remainingRayLength = maxRayLength;
 
             for (int i = 0; i < reflections; i++)
             {
                 children[i] = new GameObject("Line " + (i + 1), typeof(LineRenderer));
-                children[i].GetComponent<LineRenderer>().material = myMaterial;
+                children[i].GetComponent<LineRenderer>().material = myMaterial[currentFrame];
+                children[i].GetComponent<LineRenderer>().material.mainTextureOffset = offset;
                 children[i].GetComponent<LineRenderer>().textureMode = LineTextureMode.Tile;
-                children[i].GetComponent<LineRenderer>().sortingOrder = -50 + i;
+                children[i].GetComponent<LineRenderer>().sortingOrder = - 50 + i;
                 children[i].transform.parent = transform;
                 myLineRenderer[i] = children[i].GetComponent<LineRenderer>();
                 RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, remainingRayLength, ignoreLayer);
