@@ -300,7 +300,13 @@ MonoBehaviour:
   movementSpeedCap: 10
   jumpForce: 15
   scaleFactor: 8
+  dashStrength: 30
+  dashStopSpeed: 160
+  dashEnd: 0.1
+  HP: 0
   onGround: 0
+  knockbackForce: 0
+  knockbackDuration: 0
 --- !u!1 &422367373
 GameObject:
   m_ObjectHideFlags: 0
