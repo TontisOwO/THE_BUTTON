@@ -1,5 +1,16 @@
 using UnityEngine;
 
+enum LookDirection
+{
+    north,
+    south,
+    west,
+    northwest,
+    northeast,
+    southwest,
+    southeast
+}
+
 public class Movement : MonoBehaviour
 {
     [SerializeField] float movementSpeed;
@@ -10,9 +21,11 @@ public class Movement : MonoBehaviour
     Rigidbody2D myRigidbody;
     Vector2 velocity;
     bool jumpStart;
+    bool dashing;
     float jumpTime;
     Vector2 scale;
     public bool onGround;
+    LookDirection lookDirection;
 
     void Awake()
     {
@@ -55,7 +68,7 @@ public class Movement : MonoBehaviour
         {
             jumpTime += Time.deltaTime;
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space) && jumpStart)
         {
             jumpStart = false;
             switch (jumpTime)
@@ -73,6 +86,17 @@ public class Movement : MonoBehaviour
                     break;
             }
             jumpTime = 0;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.Q))
+        {
+            dashing = true;
+        }
+        if (dashing)
+        {
+            switch (lookDirection)
+            {
+
+            }
         }
         scale.x = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1))/scaleFactor;
         scale.y = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1))/scaleFactor;
