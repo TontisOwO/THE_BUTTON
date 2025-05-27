@@ -26,6 +26,7 @@ public class Movement : MonoBehaviour
     Vector2 scale;
     public bool onGround;
     LookDirection lookDirection;
+    public int HP;
 
     void Awake()
     {
