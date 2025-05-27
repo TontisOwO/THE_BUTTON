@@ -56,9 +56,4 @@ public class SceneLoader : MonoBehaviour
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(sceneToLoad);
     }
-
-    private void OnApplicationQuit( )
-    {
-        SaveData.SaveGameState();
-    }
 }

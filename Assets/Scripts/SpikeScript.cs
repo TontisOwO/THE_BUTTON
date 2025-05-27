@@ -23,9 +23,8 @@ public class SpikeScript : MonoBehaviour
         if (collision.gameObject.tag == "Player" && !cooldownActive)
         {
             //deal damage to the player equal to the damage value
-            player.HP -= damage;
+            player.TakeDamage(damage, this.GetComponent<Collider2D>());
             StartCoroutine(DamageCooldown(0.25f));
-
         }
     }
 
