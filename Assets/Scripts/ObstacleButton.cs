@@ -75,17 +75,18 @@ public class ObstacleButton : MonoBehaviour
                     }
                 case 1: //turret
                     {
-
+                        TurretShoot turret = myObstacle[i].GetComponent<TurretShoot>();
                         break;
                     }
                 case 2: //hydraulic press
                     {
-
+                        HydraulicPress hydraulicPress = myObstacle[i].GetComponent<HydraulicPress>();
                         break;
                     }
                 case 3: // laser
                     {
-
+                        LazerFire laser = myObstacle[i].GetComponent<LazerFire>();
+                        laser.isActive = false;
                         break;
                     }
             }
