@@ -8,16 +8,22 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] ScreenFade myFader;
 
     [SerializeField] string sceneName;
+    [SerializeField] public int currentLevel = 1;
+
+    public static SceneLoader Instance;
 
     void Awake()
     {
-        
+        if (Instance = null)
+        {
+            Instance = this;
+        }
     }
 
 
     void Update()
     {
-
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -33,6 +39,11 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(StartLoadScene(loadSceneName));
     }
 
+    public void StartGame()
+    {
+        
+    }
+
     public void QuitGame()
     {
         Application.Quit();
@@ -46,4 +57,8 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(sceneToLoad);
     }
 
+    private void OnApplicationQuit( )
+    {
+        SaveData.SaveGameState();
+    }
 }
