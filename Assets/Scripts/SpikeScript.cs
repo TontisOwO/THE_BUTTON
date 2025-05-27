@@ -36,4 +36,12 @@ public class SpikeScript : MonoBehaviour
         cooldownActive = false;
         yield return null;
     }
+
+    public IEnumerator Deactivation()
+    {
+        //play animation of spikes going down and then delete the game object
+        yield return new WaitForSeconds(1.5f);
+        Destroy(gameObject);
+        yield return null;
+    }
 }
