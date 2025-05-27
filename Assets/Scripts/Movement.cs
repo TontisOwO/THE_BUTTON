@@ -14,6 +14,8 @@ public class Movement : MonoBehaviour
     [SerializeField] float dashEnd;
     [SerializeField] Vector2 LookDirection;
     [SerializeField] bool lookingRight = true;
+    public int numberOfDashes;
+    public int maxDashes;
     
     public int HP;
     
@@ -36,6 +38,11 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        if (onGround && numberOfDashes == 0)
+        {
+            numberOfDashes = maxDashes;
+        }
+
         scale = transform.localScale;
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && myRigidbody.linearVelocityX >= -movementSpeedCap)
         {
@@ -105,9 +112,11 @@ public class Movement : MonoBehaviour
         }
 
         LookDirection = GetLookDirection(lookingRight);
-        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.Q))
+        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.Q)) && numberOfDashes > 0)
         {
             dashing = true;
+            onGround = false;
+            numberOfDashes -= 1;
             switch (LookDirection)
             {
                 case Vector2 v when v.Equals(Vector2.right):
