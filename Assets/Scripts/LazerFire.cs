@@ -3,9 +3,9 @@ using UnityEngine;
 [RequireComponent (typeof(LineRenderer))]
 public class LazerFire : MonoBehaviour
 {
+    public bool isActive;
     [SerializeField] int reflections;
     [SerializeField] float maxRayLength;
-    [SerializeField] bool isActive;
     [SerializeField] Ray ray;
     [SerializeField] RaycastHit hit;
     [SerializeField] Vector3 direction;

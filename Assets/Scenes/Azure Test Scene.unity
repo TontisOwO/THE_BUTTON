@@ -284,14 +284,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07779c8b2e48c42438fe10c6919fcc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActive: 1
   reflections: 5
   maxRayLength: 100
-  isActive: 0
   direction: {x: 0, y: 0, z: 0}
   ignoreLayer:
     serializedVersion: 2
     m_Bits: 55
-  myMaterial: {fileID: 0}
+  myMaterial: {fileID: 2100000, guid: bc0972b54c3e5144cbb2bc27316850a0, type: 2}
   targetHitTransform: {fileID: 0}
   newMirrors: []
   oldMirrors: []
