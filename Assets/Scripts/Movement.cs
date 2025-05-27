@@ -13,9 +13,9 @@ enum LookDirection
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] float movementSpeed;
+    [SerializeField] public float movementSpeed;
     [SerializeField] float stopSpeed;
-    [SerializeField] float movementSpeedCap = 4;
+    [SerializeField] public float movementSpeedCap = 4;
     [SerializeField] float jumpForce;
     [SerializeField] float scaleFactor = 8;
     Rigidbody2D myRigidbody;
