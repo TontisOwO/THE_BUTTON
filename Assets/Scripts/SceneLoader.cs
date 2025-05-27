@@ -12,8 +12,6 @@ public class SceneLoader : MonoBehaviour
 
     [SerializeField] string sceneName;
 
-    [SerializeField] bool debugTrigger = false;
-
     void Awake()
     {
         
@@ -22,10 +20,7 @@ public class SceneLoader : MonoBehaviour
 
     void Update()
     {
-        if (debugTrigger == true)
-        {
-            StartCoroutine(StartLoadScene(sceneName));
-        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
