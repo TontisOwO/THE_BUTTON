@@ -1,17 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
-enum LookDirection
-{
-    north,
-    south,
-    west,
-    east,
-    northwest,
-    northeast,
-    southwest,
-    southeast
-}
+using UnityEditor.Experimental.GraphView;
 
 public class Movement : MonoBehaviour
 {
@@ -23,16 +12,17 @@ public class Movement : MonoBehaviour
     [SerializeField] float dashStrength = 200;
     [SerializeField] float dashStopSpeed;
     [SerializeField] float dashEnd;
-    [SerializeField] int HP;
+    [SerializeField] Vector2 LookDirection;
+
+    bool lookingRight = true;
+    public int HP;
     Rigidbody2D myRigidbody;
-    Vector2 velocity;
     bool jumpStart;
     bool dashing;
     float jumpTime;
     float dashTime;
     Vector2 scale;
     public bool onGround;
-    LookDirection lookDirection;
 
     bool isKnockback;
     [SerializeField] float knockbackForce;
@@ -45,14 +35,21 @@ public class Movement : MonoBehaviour
     void Update()
     {
         scale = transform.localScale;
-        velocity = transform.position;
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && myRigidbody.linearVelocityX >= -movementSpeedCap)
         {
+            if (onGround)
+            {
+                lookingRight = false;
+            }
             myRigidbody.linearVelocityX -= movementSpeed * Time.deltaTime;
         }
 
         if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && myRigidbody.linearVelocityX <= movementSpeedCap)
         {
+            if (onGround)
+            {
+                lookingRight = true;
+            }
             myRigidbody.linearVelocityX += movementSpeed * Time.deltaTime;
         }
 
@@ -98,12 +95,13 @@ public class Movement : MonoBehaviour
             }
             jumpTime = 0;
         }
+        LookDirection = GetLookDirection();
         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.Q))
         {
             dashing = true;
-            switch (lookDirection)
+            switch (LookDirection)
             {
-                case LookDirection.east:
+                case Vector2 v when v.Equals(Vector2.right):
                     if (myRigidbody.linearVelocityX < 0)
                     {
                         myRigidbody.linearVelocityX = 0;
@@ -111,7 +109,7 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityX += dashStrength;
                     break;
 
-                case LookDirection.west:
+                case Vector2 v when v.Equals(Vector2.left):
                     if (myRigidbody.linearVelocityX > 0)
                     {
                         myRigidbody.linearVelocityX = 0;
@@ -119,7 +117,7 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityX -= dashStrength;
                     break;
 
-                case LookDirection.north:
+                case Vector2 v when v.Equals(Vector2.up):
                     if (myRigidbody.linearVelocityY < 0)
                     {
                         myRigidbody.linearVelocityY = 0;
@@ -127,7 +125,7 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityY += dashStrength;
                     break;
 
-                case LookDirection.south:
+                case Vector2 v when v.Equals(Vector2.down):
                     if (myRigidbody.linearVelocityY > 0)
                     {
                         myRigidbody.linearVelocityY = 0;
@@ -135,7 +133,7 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityY -= dashStrength;
                     break;
 
-                case LookDirection.southeast:
+                case Vector2 v when v.Equals(new Vector2(1,-1)):
                     if (myRigidbody.linearVelocityX < 0)
                     {
                         myRigidbody.linearVelocityX = 0;
@@ -148,7 +146,7 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityY -= dashStrength * Mathf.Sqrt(2) / 2;
                     break;
 
-                case LookDirection.northeast:
+                case Vector2 v when v.Equals(Vector2.one):
                     if (myRigidbody.linearVelocityX < 0)
                     {
                         myRigidbody.linearVelocityX = 0;
@@ -161,7 +159,7 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityY += dashStrength * Mathf.Sqrt(2) / 2;
                     break;
 
-                case LookDirection.southwest:
+                case Vector2 v when v.Equals(new Vector2(-1,-1)):
                     if (myRigidbody.linearVelocityX > 0)
                     {
                         myRigidbody.linearVelocityX = 0;
@@ -174,7 +172,8 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityY -= dashStrength * Mathf.Sqrt(2) / 2;
                     break;
 
-                case LookDirection.northwest:
+                case Vector2 v when v.Equals(new Vector2(-1, 1)):
+
                     if (myRigidbody.linearVelocityX > 0)
                     {
                         myRigidbody.linearVelocityX = 0;
@@ -188,7 +187,6 @@ public class Movement : MonoBehaviour
                     break;
             }
         }
-        lookDirection = GetLookDirection();
         if (dashing)
         {
             dashTime += Time.deltaTime;
@@ -223,39 +221,34 @@ public class Movement : MonoBehaviour
         scale.y = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1))/scaleFactor;
         transform.localScale = scale;
     }
-    LookDirection GetLookDirection() 
+    Vector2 GetLookDirection(bool right) 
     {
-        LookDirection watching;
-        watching = LookDirection.east;
-        if (Input.GetKey(KeyCode.A)) 
+        Vector2 lookDirection = Vector2.zero;
+        if (right)
         {
-            watching = LookDirection.west;
+            lookDirection.x = 1;
         }
-        if (Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W))
+        else
         {
-            watching = LookDirection.south;
+            lookDirection.x = -1;
         }
-        if (Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.A) && right)
         {
-            watching = LookDirection.north;
+            lookDirection.x -= 1;
         }
-        if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && !right)
         {
-            watching = LookDirection.southwest;
+            lookDirection.x += 1;
         }
-        if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.D))
-        {
-            watching = LookDirection.northwest;
+        if (Input.GetKey(KeyCode.W)) 
+        { 
+            lookDirection.y += 1; 
         }
-        if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.A))
-        {
-            watching = LookDirection.southeast;
+        if (Input.GetKey(KeyCode.S))
+        { 
+            lookDirection.y -= 1;
         }
-        if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.A))
-        {
-            watching = LookDirection.northeast;
-        }
-        return watching;
+        return lookDirection;
     }
     public void TakeDamage(int damage, Collider2D other)
     {
