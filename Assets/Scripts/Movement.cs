@@ -13,9 +13,10 @@ public class Movement : MonoBehaviour
     [SerializeField] float dashStopSpeed;
     [SerializeField] float dashEnd;
     [SerializeField] Vector2 LookDirection;
-
-    bool lookingRight = true;
+    [SerializeField] bool lookingRight = true;
+    
     public int HP;
+    
     Rigidbody2D myRigidbody;
     bool jumpStart;
     bool dashing;
@@ -226,35 +227,51 @@ public class Movement : MonoBehaviour
         Vector2 lookDirection = Vector2.zero;
         if (right)
         {
-            lookDirection.x = 1;
+            if (!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)))
+            {
+                lookDirection.x += 1;
+            }
         }
         else
         {
-            lookDirection.x = -1;
+            if (!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)))
+            {
+                lookDirection.x -= 1;
+            }
         }
-        if (Input.GetKey(KeyCode.A) && right)
+        if (Input.GetKey(KeyCode.A))
         {
             lookDirection.x -= 1;
             if (!onGround)
             {
                 lookDirection.x -= 1;
+
             }
         }
-        if (Input.GetKey(KeyCode.D) && !right)
+        if (Input.GetKey(KeyCode.D))
         {
             lookDirection.x += 1;
             if (!onGround)
             {
                 lookDirection.x += 1;
+
             }
         }
         if (Input.GetKey(KeyCode.W)) 
         { 
-            lookDirection.y += 1; 
+            lookDirection.y += 1;
         }
         if (Input.GetKey(KeyCode.S))
         { 
             lookDirection.y -= 1;
+        }
+        if (lookDirection.x > 1)
+        {
+            lookDirection.x = 1;
+        }
+        if (lookDirection.x < -1)
+        {
+            lookDirection.x = -1;
         }
         return lookDirection;
     }
