@@ -235,10 +235,18 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.A) && right)
         {
             lookDirection.x -= 1;
+            if (!onGround)
+            {
+                lookDirection.x -= 1;
+            }
         }
         if (Input.GetKey(KeyCode.D) && !right)
         {
             lookDirection.x += 1;
+            if (!onGround)
+            {
+                lookDirection.x += 1;
+            }
         }
         if (Input.GetKey(KeyCode.W)) 
         { 
