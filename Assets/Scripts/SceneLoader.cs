@@ -1,7 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -58,10 +55,5 @@ public class SceneLoader : MonoBehaviour
         myFader.StartCoroutine(myFader.FadeOutCoroutine(2));
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(sceneToLoad);
-    }
-
-    private void OnApplicationQuit( )
-    {
-        SaveData.SaveGameState();
     }
 }
