@@ -95,7 +95,7 @@ public class Movement : MonoBehaviour
             }
             jumpTime = 0;
         }
-        LookDirection = GetLookDirection();
+        LookDirection = GetLookDirection(lookingRight);
         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.Q))
         {
             dashing = true;
