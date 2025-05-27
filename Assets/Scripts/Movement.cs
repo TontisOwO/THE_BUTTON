@@ -33,6 +33,7 @@ public class Movement : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
         scale = transform.localScale;
@@ -42,6 +43,7 @@ public class Movement : MonoBehaviour
             {
                 lookingRight = false;
             }
+
             myRigidbody.linearVelocityX -= movementSpeed * Time.deltaTime;
         }
 
@@ -51,6 +53,7 @@ public class Movement : MonoBehaviour
             {
                 lookingRight = true;
             }
+
             myRigidbody.linearVelocityX += movementSpeed * Time.deltaTime;
         }
 
@@ -61,6 +64,7 @@ public class Movement : MonoBehaviour
                 case < 0:
                     myRigidbody.linearVelocityX += stopSpeed * Time.deltaTime;
                     break;
+
                 case > 0:
                     myRigidbody.linearVelocityX -= stopSpeed * Time.deltaTime;
                     break;
@@ -73,10 +77,12 @@ public class Movement : MonoBehaviour
             myRigidbody.linearVelocityY += jumpForce;
             onGround = false;
         }
+
         if (jumpStart)
         {
             jumpTime += Time.deltaTime;
         }
+
         if (Input.GetKeyUp(KeyCode.Space) && jumpStart)
         {
             jumpStart = false;
@@ -94,8 +100,10 @@ public class Movement : MonoBehaviour
 
                     break;
             }
+
             jumpTime = 0;
         }
+
         LookDirection = GetLookDirection(lookingRight);
         if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.Q))
         {
@@ -107,6 +115,7 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityX = 0;
                     }
+
                     myRigidbody.linearVelocityX += dashStrength;
                     break;
 
@@ -115,6 +124,7 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityX = 0;
                     }
+
                     myRigidbody.linearVelocityX -= dashStrength;
                     break;
 
@@ -123,6 +133,7 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityY = 0;
                     }
+
                     myRigidbody.linearVelocityY += dashStrength;
                     break;
 
@@ -131,6 +142,7 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityY = 0;
                     }
+
                     myRigidbody.linearVelocityY -= dashStrength;
                     break;
 
@@ -139,10 +151,12 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityX = 0;
                     }
+
                     if (myRigidbody.linearVelocityY > 0)
                     {
                         myRigidbody.linearVelocityY = 0;
                     }
+
                     myRigidbody.linearVelocityX += dashStrength * Mathf.Sqrt(2) / 2;
                     myRigidbody.linearVelocityY -= dashStrength * Mathf.Sqrt(2) / 2;
                     break;
@@ -152,10 +166,12 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityX = 0;
                     }
+
                     if (myRigidbody.linearVelocityY < 0)
                     {
                         myRigidbody.linearVelocityY = 0;
                     }
+
                     myRigidbody.linearVelocityX += dashStrength * Mathf.Sqrt(2) / 2;
                     myRigidbody.linearVelocityY += dashStrength * Mathf.Sqrt(2) / 2;
                     break;
@@ -165,10 +181,12 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityX = 0;
                     }
+
                     if (myRigidbody.linearVelocityY > 0)
                     {
                         myRigidbody.linearVelocityY = 0;
                     }
+
                     myRigidbody.linearVelocityX -= dashStrength * Mathf.Sqrt(2) / 2;
                     myRigidbody.linearVelocityY -= dashStrength * Mathf.Sqrt(2) / 2;
                     break;
@@ -179,19 +197,23 @@ public class Movement : MonoBehaviour
                     {
                         myRigidbody.linearVelocityX = 0;
                     }
+
                     if (myRigidbody.linearVelocityY < 0)
                     {
                         myRigidbody.linearVelocityY = 0;
                     }
+
                     myRigidbody.linearVelocityX -= dashStrength * Mathf.Sqrt(2) / 2;
                     myRigidbody.linearVelocityY += dashStrength * Mathf.Sqrt(2) / 2;
                     break;
             }
         }
+
         if (dashing)
         {
             dashTime += Time.deltaTime;
         }
+
         if (dashTime >= dashEnd)
         {
             switch (myRigidbody.linearVelocityX)
@@ -203,6 +225,7 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityX -= dashStopSpeed * Time.deltaTime;
                     break;
             }
+
             switch (myRigidbody.linearVelocityY)
             {
                 case < 0:
@@ -212,10 +235,12 @@ public class Movement : MonoBehaviour
                     myRigidbody.linearVelocityY -= dashStopSpeed * Time.deltaTime;
                     break;
             }
+
             if (Mathf.Abs(myRigidbody.linearVelocityY) <= 1 && Mathf.Abs(myRigidbody.linearVelocityX) <= 1)
             {
                 dashTime = 0;
             }
+
             dashing = false;
         }
         scale.x = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1))/scaleFactor;
@@ -245,7 +270,6 @@ public class Movement : MonoBehaviour
             if (!onGround)
             {
                 lookDirection.x -= 1;
-
             }
         }
         if (Input.GetKey(KeyCode.D))
@@ -254,7 +278,6 @@ public class Movement : MonoBehaviour
             if (!onGround)
             {
                 lookDirection.x += 1;
-
             }
         }
         if (Input.GetKey(KeyCode.W)) 
@@ -275,12 +298,14 @@ public class Movement : MonoBehaviour
         }
         return lookDirection;
     }
+
     public void TakeDamage(int damage, Collider2D other)
     {
         HP -= damage;
         Vector2 direction = -(other.transform.position - this.transform.position).normalized;
         StartCoroutine(KnockbackCoroutine(direction));
     }
+
     IEnumerator KnockbackCoroutine(Vector2 direction)
     {
         isKnockback = true;
