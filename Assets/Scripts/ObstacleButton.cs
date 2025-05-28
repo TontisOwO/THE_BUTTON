@@ -73,10 +73,9 @@ public class ObstacleButton : MonoBehaviour
                         spike.Deactivation();
                         break;
                     }
-                case 1: //turret
+                case 1: //turret follow player
                     {
-                        
-                        TurretShoot turret = myObstacle[i].GetComponent<TurretShoot>();
+                        TurretFollowPlayer turret = myObstacle[i].GetComponent<TurretFollowPlayer>();
                         break;
                     }
                 case 2: //hydraulic press
@@ -90,6 +89,7 @@ public class ObstacleButton : MonoBehaviour
                         laser.isActive = false;
                         break;
                     }
+
             }
         }
     }
