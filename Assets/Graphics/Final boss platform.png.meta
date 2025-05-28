@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Final boss platform_0: 2827903619595453888
+      Final boss platform_1: 5637421449630037330
+      Final boss platform_2: 5021770404886039189
+      Final boss platform_3: -9142636597716849843
+      Final boss platform_4: -7630113790719689811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

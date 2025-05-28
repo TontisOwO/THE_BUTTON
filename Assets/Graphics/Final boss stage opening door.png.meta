@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Final boss stage opening door_0: 5433452290572467757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

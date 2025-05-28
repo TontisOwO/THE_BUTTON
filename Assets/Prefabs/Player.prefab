@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4072108242852024500}
   - component: {fileID: 836136292245816572}
   - component: {fileID: 4322033630571356747}
+  - component: {fileID: 7025068501838810282}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -181,8 +182,31 @@ MonoBehaviour:
   movementSpeedCap: 10
   jumpForce: 15
   scaleFactor: 8
+  dashStrength: 40
+  dashStopSpeed: 0
+  dashEnd: 0
+  LookDirection: {x: 0, y: 0}
+  lookingRight: 1
+  numberOfDashes: 0
+  maxDashes: 1
+  HP: 5
   onGround: 0
-  HP: 0
+  knockbackForce: 0
+  knockbackDuration: 0
+--- !u!114 &7025068501838810282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255230862185519013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e981de8571d674483f2979e062353b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &5104304983168988756
 GameObject:
   m_ObjectHideFlags: 0

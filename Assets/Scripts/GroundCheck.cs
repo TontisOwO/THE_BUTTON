@@ -11,4 +11,15 @@ public class GroundCheck : MonoBehaviour
             movement.onGround = true;
         }
     }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (movement.dashing)
+        {
+            if (other.CompareTag("Ground"))
+            {
+                movement.onGround = true;
+            }
+        }
+    }
 }

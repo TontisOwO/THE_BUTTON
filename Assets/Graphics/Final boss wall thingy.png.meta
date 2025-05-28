@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Final boss wall thingy_0: 3581268029254192304
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
