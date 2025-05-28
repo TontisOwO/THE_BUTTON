@@ -75,7 +75,7 @@ public class SceneLoader : MonoBehaviour
         }
         else
         {
-            SaveScript saveData = GetComponent<SaveScript>();
+            SaveScript saveData = GameObject.Find("MenuManager").GetComponent<SaveScript>();
             saveData.ResetData();
             StartGame();
         }
