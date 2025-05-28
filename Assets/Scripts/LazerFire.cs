@@ -79,6 +79,11 @@ public class LazerFire : MonoBehaviour
                     myLineRenderer[i].SetPosition(1, hit.point);
                     remainingRayLength -= Vector3.Distance(ray.origin, hit.point);
                     ray = new Ray(hit.point, Vector3.Reflect(ray.direction, hit.normal));
+                    if (hit.collider.CompareTag("LaserButton") == true)
+                    {
+                        DoorScript door = hit.collider.gameObject.GetComponent<DoorScript>();
+                        door.DoorOpen();
+                    }
                     if (hit.collider.CompareTag("Mirror") == false)
                     {
                         break;
