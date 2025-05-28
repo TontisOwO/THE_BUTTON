@@ -50,6 +50,11 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
+    public void YouFuckingDiedYouLoser()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void ButtonPressed(string loadSceneName)
     {
         if (!loadingScene)
