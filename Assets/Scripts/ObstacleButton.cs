@@ -76,7 +76,16 @@ public class ObstacleButton : MonoBehaviour
                 case 1: //turret
                     {
                         
-                        TurretShoot turret = myObstacle[i].GetComponent<TurretShoot>();
+                        TurretShootsStraight turretShooter = myObstacle[i].GetComponent<TurretShootsStraight>();
+                        TurretFollowPlayer turretBrain = myObstacle[i].GetComponent<TurretFollowPlayer>();
+                        if (turretShooter.enabled == true)
+                        {
+                            turretShooter.enabled = false;
+                        }
+                        if (turretBrain.enabled == true)
+                        {
+                            turretBrain.enabled = false;
+                        }
                         break;
                     }
                 case 2: //hydraulic press
