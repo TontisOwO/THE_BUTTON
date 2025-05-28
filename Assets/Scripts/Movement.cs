@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityEditor.Experimental.GraphView;
 
 public class Movement : MonoBehaviour
 {
@@ -21,7 +20,7 @@ public class Movement : MonoBehaviour
     
     Rigidbody2D myRigidbody;
     bool jumpStart;
-    bool dashing;
+    public bool dashing;
     float jumpTime;
     float dashTime;
     Vector2 scale;
