@@ -36,6 +36,11 @@ public class Movement : MonoBehaviour
         myRigidbody = GetComponent<Rigidbody2D>();
     }
 
+    void Start()
+    {
+        SceneLoader = GameObject.Find("GameManager").GetComponent<SceneLoader>();
+    }
+
     void Update()
     {
         if (onGround && numberOfDashes == 0)
