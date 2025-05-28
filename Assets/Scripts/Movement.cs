@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
     [SerializeField] float dashStrength = 200;
     [SerializeField] float dashStopSpeed;
     [SerializeField] float dashEnd;
-    [SerializeField] int HP;
+    [SerializeField] public int HP;
     Rigidbody2D myRigidbody;
     Vector2 velocity;
     bool jumpStart;

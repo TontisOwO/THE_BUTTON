@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 152875559}
   m_Layer: 0
   m_Name: Platform (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 811838633}
   m_Layer: 0
   m_Name: HydraulicPressBody
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1087,7 +1087,7 @@ GameObject:
   - component: {fileID: 962226559}
   m_Layer: 0
   m_Name: Platform (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 1074047903}
   m_Layer: 0
   m_Name: Platform (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1355,7 +1355,7 @@ GameObject:
   - component: {fileID: 1227340103}
   m_Layer: 0
   m_Name: Platform (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1488,7 +1488,7 @@ GameObject:
   - component: {fileID: 1324882527}
   m_Layer: 0
   m_Name: HydraulicPressBody
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1574,9 +1574,10 @@ GameObject:
   - component: {fileID: 1340433098}
   - component: {fileID: 1340433097}
   - component: {fileID: 1340433099}
+  - component: {fileID: 1340433100}
   m_Layer: 0
   m_Name: Platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1697,6 +1698,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &1340433100
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340433096}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1536879920
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,6 +2066,7 @@ GameObject:
   - component: {fileID: 1720294152}
   - component: {fileID: 1720294151}
   - component: {fileID: 1720294150}
+  - component: {fileID: 1720294154}
   - component: {fileID: 1720294153}
   m_Layer: 0
   m_Name: Player
@@ -2152,8 +2181,26 @@ MonoBehaviour:
   movementSpeedCap: 15
   jumpForce: 10
   scaleFactor: 8
+  dashStrength: 10
+  dashStopSpeed: 0.39
+  dashEnd: 0.42
+  HP: 3
   onGround: 0
-  HP: 0
+  knockbackForce: 0.2
+  knockbackDuration: 0.18
+--- !u!114 &1720294154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720294149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74ae1192a04af74ba3f4c9cbdd0024e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movement: {fileID: 1720294153}
 --- !u!1 &1785337294
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,7 +2358,7 @@ GameObject:
   - component: {fileID: 1905844995}
   m_Layer: 0
   m_Name: Platform (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2582,7 +2629,7 @@ GameObject:
   - component: {fileID: 2008271326}
   m_Layer: 0
   m_Name: Platform (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
