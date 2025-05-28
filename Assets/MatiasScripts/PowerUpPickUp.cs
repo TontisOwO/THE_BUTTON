@@ -15,12 +15,19 @@ public class PowerUpPickUp : MonoBehaviour
 
     public float speedBuffCountDown = 0;
     public float gravityBuffCountDown = 0;
+    [Header("Pickup stats")]
+    public float lowerGravityStrength;
+    public float speedBuffStrength;
+
+
+    AudioManager audioManager;
 
     private void Awake()
     {
         pickUpCollider2D = GetComponent<Collider2D>();  
         spriteRenderer = GetComponent<SpriteRenderer>();    
         pickUpRigidBody2D = GetComponent<Rigidbody2D>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void Update()
@@ -47,8 +54,8 @@ public class PowerUpPickUp : MonoBehaviour
     {
         if (speedBuffCountDown > 10 && speedPickUp == true)
         {
-            movementScriptAcces.GetComponent<Movement>().movementSpeed -= 10;
-            movementScriptAcces.GetComponent<Movement>().movementSpeedCap -= 10;
+            movementScriptAcces.GetComponent<Movement>().movementSpeed -= speedBuffStrength;
+            movementScriptAcces.GetComponent<Movement>().movementSpeedCap -= speedBuffStrength;
 
             speedBuffCountDown = 0;
             speedPickUpPickedUp = false;
@@ -56,7 +63,7 @@ public class PowerUpPickUp : MonoBehaviour
 
         if(gravityBuffCountDown > 10 && lowGravityPickUp == true)
         {
-            playerRigidyBody2D.gravityScale = 1f;
+            playerRigidyBody2D.gravityScale = 3f;
 
             gravityBuffCountDown = 0;
             lowGravityPickedUp = false;
@@ -67,6 +74,7 @@ public class PowerUpPickUp : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            audioManager.playSFX(audioManager.BuffPickUp);
             Destroy(spriteRenderer);
             Destroy(pickUpRigidBody2D);
             Destroy(pickUpCollider2D);
@@ -74,14 +82,14 @@ public class PowerUpPickUp : MonoBehaviour
         
         if(speedPickUp == true && collision.collider.CompareTag("Player"))
         {
-            movementScriptAcces.GetComponent<Movement>().movementSpeed += 10;
-            movementScriptAcces.GetComponent <Movement>().movementSpeedCap += 10;
+            movementScriptAcces.GetComponent<Movement>().movementSpeed += speedBuffStrength;
+            movementScriptAcces.GetComponent <Movement>().movementSpeedCap += speedBuffStrength;
             speedPickUpPickedUp = true;
         }
 
         if(lowGravityPickUp == true && collision.collider.CompareTag("Player"))
         {
-            playerRigidyBody2D.gravityScale = 0.3f;
+            playerRigidyBody2D.gravityScale = lowerGravityStrength;
             lowGravityPickedUp = true;
         }
     }
