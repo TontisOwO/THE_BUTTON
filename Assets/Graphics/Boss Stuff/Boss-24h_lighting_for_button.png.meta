@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8e65f18313c7f564fb30d05f2c2bfbce
+guid: 2a24279611272fb4ea547338441af90d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3581268029254192304
-    second: Final boss wall thingy_0
+      213: -2355980410873408931
+    second: Boss-24h_lighting_for_button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Final boss wall thingy_0
+      name: Boss-24h_lighting_for_button_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 11019
-        height: 1092
+        width: 1890
+        height: 1270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bcc8295c4833b130800000000000000
-      internalID: 3581268029254192304
+      spriteID: d529c108c40ed4fd0800000000000000
+      internalID: -2355980410873408931
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Final boss wall thingy_0: 3581268029254192304
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: fa1bcd607490d984c80a715d57606680
+guid: b0adeb0ca2355c14191612c3a57077ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2827903619595453888
-    second: Final boss platform_0
+      213: -6281445330467880792
+    second: the_button_0
   - first:
-      213: 5637421449630037330
-    second: Final boss platform_1
+      213: -4960971916495315845
+    second: the_button_1
   - first:
-      213: 5021770404886039189
-    second: Final boss platform_2
+      213: -2359528034074237493
+    second: the_button_2
   - first:
-      213: -9142636597716849843
-    second: Final boss platform_3
+      213: -37272188223906640
+    second: the_button_3
   - first:
-      213: -7630113790719689811
-    second: Final boss platform_4
+      213: -9124055745003392751
+    second: the_button_4
+  - first:
+      213: 1788650269178924764
+    second: the_button_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Final boss platform_0
+      name: the_button_0
       rect:
         serializedVersion: 2
-        x: 841
-        y: 1483
-        width: 1032
-        height: 232
+        x: 86
+        y: 332
+        width: 312
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c54701fb5bbe3720800000000000000
-      internalID: 2827903619595453888
+      spriteID: 8a00d61a0c2d3d8a0800000000000000
+      internalID: -6281445330467880792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final boss platform_1
+      name: the_button_1
       rect:
         serializedVersion: 2
-        x: 1879
-        y: 1633
-        width: 6
-        height: 8
+        x: 519
+        y: 332
+        width: 312
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 255bd5aa0f42c3e40800000000000000
-      internalID: 5637421449630037330
+      spriteID: b7c9b988356172bb0800000000000000
+      internalID: -4960971916495315845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final boss platform_2
+      name: the_button_2
       rect:
         serializedVersion: 2
-        x: 1884
-        y: 1631
-        width: 17
-        height: 11
+        x: 953
+        y: 332
+        width: 312
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59a4dc6a399e0b540800000000000000
-      internalID: 5021770404886039189
+      spriteID: bc5ed6b11c5414fd0800000000000000
+      internalID: -2359528034074237493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final boss platform_3
+      name: the_button_3
       rect:
         serializedVersion: 2
-        x: 1911
-        y: 1631
-        width: 10
-        height: 13
+        x: 86
+        y: 36
+        width: 312
+        height: 271
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4be9924474de1180800000000000000
-      internalID: -9142636597716849843
+      spriteID: 0bc99ec64259b7ff0800000000000000
+      internalID: -37272188223906640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final boss platform_4
+      name: the_button_4
       rect:
         serializedVersion: 2
-        x: 1919
-        y: 1613
-        width: 10
-        height: 14
+        x: 519
+        y: 30
+        width: 312
+        height: 277
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +218,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dabf754fee36c1690800000000000000
-      internalID: -7630113790719689811
+      spriteID: 111f53824a7d06180800000000000000
+      internalID: -9124055745003392751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: the_button_5
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 34
+        width: 312
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde01d171ff82d810800000000000000
+      internalID: 1788650269178924764
       vertices: []
       indices: 
       edges: []
@@ -234,12 +259,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Final boss platform_0: 2827903619595453888
-      Final boss platform_1: 5637421449630037330
-      Final boss platform_2: 5021770404886039189
-      Final boss platform_3: -9142636597716849843
-      Final boss platform_4: -7630113790719689811
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Final boss skybox_0: 8185573573174579014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
