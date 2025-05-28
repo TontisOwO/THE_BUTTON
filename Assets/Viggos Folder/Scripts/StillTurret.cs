@@ -9,6 +9,13 @@ public class TurretShootsStraight : MonoBehaviour
 
     float nextTimeToFire = 0f;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void FixedUpdate()
     {
         if (Time.time > nextTimeToFire)
@@ -20,6 +27,7 @@ public class TurretShootsStraight : MonoBehaviour
 
     private void Shoot()
     {
+        audioManager.playSFX(audioManager.Turret);
         GameObject newBullet = Instantiate(Bullet, Shootpoint.position, Shootpoint.rotation);
         Vector2 direction = Shootpoint.right;
 
