@@ -5,14 +5,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
-using UnityEngine.SceneManagement;
-
 public class SaveScript : MonoBehaviour
 {
+    [SerializeField] SceneLoader loader;
     
-    void Start()
+    void Awake()
     {
-        
+        loader = GetComponent<SceneLoader>();
     }
 
     
@@ -21,11 +20,26 @@ public class SaveScript : MonoBehaviour
         
     }
 
+    public void ResetData()
+    {
+        File.WriteAllText(Application.dataPath + "save.txt", "Level 1");
+    }
+
+    public void SaveGame(string currentLevel)
+    {
+        File.WriteAllText(Application.dataPath + "/save.txt", currentLevel);
+    }
+
     private void OnApplicationQuit()
     {
-        int currentScene = SceneManager.GetActiveScene().buildIndex;
-
-
-        File.WriteAllText(Application.dataPath + "/save.txt", currentScene.ToString());
+        string currentScene = SceneManager.GetActiveScene().name;
+        if (currentScene != "Main Menu" || currentScene != "Settings")
+        {
+            File.WriteAllText(Application.dataPath + "/save.txt", currentScene);
+        }
+        else
+        {
+            File.WriteAllText(Application.dataPath + "/save.txt", loader.currentLevel);
+        }
     }
 }

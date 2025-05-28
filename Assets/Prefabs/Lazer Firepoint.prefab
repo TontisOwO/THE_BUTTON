@@ -218,7 +218,7 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: 0}
   ignoreLayer:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
   myMaterial:
   - {fileID: 2100000, guid: bc0972b54c3e5144cbb2bc27316850a0, type: 2}
   targetHitTransform: {fileID: 0}
