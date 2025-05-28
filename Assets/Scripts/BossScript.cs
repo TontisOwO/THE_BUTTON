@@ -6,6 +6,7 @@ public class BossScript : MonoBehaviour
     [SerializeField] bool bossStart;
     bool attackComplete;
     int attackPattern;
+    public int currentButton;
     [SerializeField] float timer;
     [SerializeField] float attackSpeed;
 
@@ -25,6 +26,8 @@ public class BossScript : MonoBehaviour
     [SerializeField] Vector3 lazerSweepStart;
     [SerializeField] Vector3 lazerSweepEnd;
     [SerializeField] bool lazerSweepComplete;
+
+    [SerializeField] 
 
     void Awake()
     {
