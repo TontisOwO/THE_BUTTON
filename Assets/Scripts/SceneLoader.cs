@@ -50,6 +50,11 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
+    public void YouFuckingDiedYouLoser()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void ButtonPressed(string loadSceneName)
     {
         if (!loadingScene)
@@ -75,7 +80,7 @@ public class SceneLoader : MonoBehaviour
         }
         else
         {
-            SaveScript saveData = GetComponent<SaveScript>();
+            SaveScript saveData = GameObject.Find("MenuManager").GetComponent<SaveScript>();
             saveData.ResetData();
             StartGame();
         }

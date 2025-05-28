@@ -7,7 +7,7 @@ public class ScreenFade : MonoBehaviour
     [SerializeField] SpriteRenderer fadeScreen;
 
 
-    void Awake()
+    void Start()
     {
         fadeScreen = GameObject.Find("ScreenFade").GetComponent<SpriteRenderer>();
     }

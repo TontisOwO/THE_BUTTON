@@ -13,7 +13,7 @@ public class ConfirmMenu : MonoBehaviour
 
     [SerializeField] List<AudioClip> audioList;
 
-    void Awake()
+    void Start()
     {
         source = GetComponent<AudioSource>();
         confirmScreen = this.gameObject;
@@ -41,8 +41,6 @@ public class ConfirmMenu : MonoBehaviour
 
                         case "No":
                             {
-                                source.clip = audioList[0];
-                                source.Play();
                                 Destroy(confirmScreen);
                                 break;
                             }
@@ -56,15 +54,13 @@ public class ConfirmMenu : MonoBehaviour
                     {
                         case "Yes":
                             {
-                                SceneLoader loader = GameObject.Find("Menu Manager").GetComponent<SceneLoader>();
+                                SceneLoader loader = GameObject.Find("MenuManager").GetComponent<SceneLoader>();
                                 loader.NewGame();
                                 break;
                             }
 
                         case "No":
                             {
-                                source.clip = audioList[0];
-                                source.Play();
                                 Destroy(confirmScreen);
                                 break;
                             }
@@ -85,8 +81,6 @@ public class ConfirmMenu : MonoBehaviour
 
                         case "No":
                             {
-                                source.clip = audioList[0];
-                                source.Play();
                                 Destroy(confirmScreen);
                                 break;
                             }
@@ -100,9 +94,7 @@ public class ConfirmMenu : MonoBehaviour
 
     IEnumerator QuitGame()
     {
-        source.clip = audioList[0];
-        source.Play();
-        yield return screenFader.FadeOutCoroutine(fadeDuration);
+        screenFader.StartCoroutine(screenFader.FadeOutCoroutine(fadeDuration));
         yield return new WaitForSeconds(fadeDuration);
 
         Application.Quit();

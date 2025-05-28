@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityEditor.Experimental.GraphView;
 
 public class Movement : MonoBehaviour
 {
@@ -21,7 +20,7 @@ public class Movement : MonoBehaviour
     
     Rigidbody2D myRigidbody;
     bool jumpStart;
-    bool dashing;
+    public bool dashing;
     float jumpTime;
     float dashTime;
     Vector2 scale;
@@ -30,10 +29,16 @@ public class Movement : MonoBehaviour
     bool isKnockback;
     [SerializeField] float knockbackForce;
     [SerializeField] float knockbackDuration;
+    [SerializeField] SceneLoader SceneLoader;
 
     void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    void Start()
+    {
+        SceneLoader = GameObject.Find("GameManager").GetComponent<SceneLoader>();
     }
 
     void Update()
@@ -83,6 +88,10 @@ public class Movement : MonoBehaviour
             jumpStart = true;
             myRigidbody.linearVelocityY += jumpForce;
             onGround = false;
+            if (myRigidbody.linearVelocityY < 0)
+            {
+                myRigidbody.linearVelocityY = 0;
+            }
         }
 
         if (jumpStart)
@@ -252,8 +261,9 @@ public class Movement : MonoBehaviour
 
             dashing = false;
         }
-        scale.x = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1))/scaleFactor;
-        scale.y = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1))/scaleFactor;
+
+        scale.x = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1)) / scaleFactor;
+        scale.y = 1 + (Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityY) + 1) - Mathf.Log10(Mathf.Abs(myRigidbody.linearVelocityX) + 1)) / scaleFactor;
         transform.localScale = scale;
     }
     Vector2 GetLookDirection(bool right) 
@@ -313,6 +323,10 @@ public class Movement : MonoBehaviour
         HP -= damage;
         Vector2 direction = -(other.transform.position - this.transform.position).normalized;
         StartCoroutine(KnockbackCoroutine(direction));
+        if (HP <= 0)
+        {
+            SceneLoader.YouFuckingDiedYouLoser();
+        }
     }
 
     IEnumerator KnockbackCoroutine(Vector2 direction)

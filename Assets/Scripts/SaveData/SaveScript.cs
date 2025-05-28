@@ -33,7 +33,7 @@ public class SaveScript : MonoBehaviour
     private void OnApplicationQuit()
     {
         string currentScene = SceneManager.GetActiveScene().name;
-        if (currentScene != "Main Menu" || currentScene != "Settings")
+        if (currentScene != "Main Menu")
         {
             File.WriteAllText(Application.dataPath + "/save.txt", currentScene);
         }
