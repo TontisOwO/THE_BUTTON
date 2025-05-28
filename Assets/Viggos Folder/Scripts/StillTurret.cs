@@ -1,27 +1,32 @@
 using UnityEngine;
 
-public class StillTurret : MonoBehaviour
+public class TurretShootsStraight : MonoBehaviour
 {
     public float FireRate;
     public float Force;
-    public GameObject TurretHead;
     public GameObject Bullet;
     public Transform Shootpoint;
 
-    float nextTimeToFire = 0;
+    float nextTimeToFire = 0f;
 
     void FixedUpdate()
     {
         if (Time.time > nextTimeToFire)
         {
-            nextTimeToFire = Time.time + 1 / FireRate;
-            shoot();
+            nextTimeToFire = Time.time + 1f / FireRate;
+            Shoot();
         }
     }
 
-    private void shoot()
+    private void Shoot()
     {
-        GameObject newBullet = Instantiate(Bullet, Shootpoint.position, Quaternion.identity);
-        newBullet.GetComponent<Rigidbody2D>().AddForce(Direction * Force, ForceMode2D.Force);
+        GameObject newBullet = Instantiate(Bullet, Shootpoint.position, Shootpoint.rotation);
+        Vector2 direction = Shootpoint.right;
+
+        Rigidbody2D rb = newBullet.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.AddForce(direction * Force, ForceMode2D.Force);
+        }
     }
 }
