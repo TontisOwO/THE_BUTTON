@@ -2311,12 +2311,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4487287111516408670, guid: 26b3522905e4d104e8fa91a393601532, type: 3}
-      propertyPath: maxDashes
-      value: 1
+      propertyPath: SceneLoader
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167891803282329346, guid: 26b3522905e4d104e8fa91a393601532, type: 3}
+      propertyPath: coyoteFrames
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6551317728060180806, guid: 26b3522905e4d104e8fa91a393601532, type: 3}
       propertyPath: m_Name
-      value: Player 1
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868449513238227699, guid: 26b3522905e4d104e8fa91a393601532, type: 3}
+      propertyPath: m_Size.y
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

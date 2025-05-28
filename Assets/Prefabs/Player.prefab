@@ -181,7 +181,7 @@ MonoBehaviour:
   stopSpeed: 80
   movementSpeedCap: 10
   jumpForce: 15
-  scaleFactor: 8
+  scaleFactor: 10
   dashStrength: 30
   dashStopSpeed: 160
   dashEnd: 0.1
@@ -194,6 +194,7 @@ MonoBehaviour:
   onGround: 0
   knockbackForce: 0
   knockbackDuration: 0
+  SceneLoader: {fileID: 0}
 --- !u!114 &-5701316460561146324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,6 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 4487287111516408670}
+  coyoteFrames: 0
 --- !u!61 &7868449513238227699
 BoxCollider2D:
   m_ObjectHideFlags: 0
