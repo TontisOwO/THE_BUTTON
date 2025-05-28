@@ -15,6 +15,10 @@ public class PowerUpPickUp : MonoBehaviour
 
     public float speedBuffCountDown = 0;
     public float gravityBuffCountDown = 0;
+    [Header("Pickup stats")]
+    public float lowerGravityStrength;
+    public float speedBuffStrength;
+
 
     private void Awake()
     {
@@ -47,8 +51,8 @@ public class PowerUpPickUp : MonoBehaviour
     {
         if (speedBuffCountDown > 10 && speedPickUp == true)
         {
-            movementScriptAcces.GetComponent<Movement>().movementSpeed -= 10;
-            movementScriptAcces.GetComponent<Movement>().movementSpeedCap -= 10;
+            movementScriptAcces.GetComponent<Movement>().movementSpeed -= speedBuffStrength;
+            movementScriptAcces.GetComponent<Movement>().movementSpeedCap -= speedBuffStrength;
 
             speedBuffCountDown = 0;
             speedPickUpPickedUp = false;
@@ -56,7 +60,7 @@ public class PowerUpPickUp : MonoBehaviour
 
         if(gravityBuffCountDown > 10 && lowGravityPickUp == true)
         {
-            playerRigidyBody2D.gravityScale = 1f;
+            playerRigidyBody2D.gravityScale = 3f;
 
             gravityBuffCountDown = 0;
             lowGravityPickedUp = false;
@@ -74,14 +78,14 @@ public class PowerUpPickUp : MonoBehaviour
         
         if(speedPickUp == true && collision.collider.CompareTag("Player"))
         {
-            movementScriptAcces.GetComponent<Movement>().movementSpeed += 10;
-            movementScriptAcces.GetComponent <Movement>().movementSpeedCap += 10;
+            movementScriptAcces.GetComponent<Movement>().movementSpeed += speedBuffStrength;
+            movementScriptAcces.GetComponent <Movement>().movementSpeedCap += speedBuffStrength;
             speedPickUpPickedUp = true;
         }
 
         if(lowGravityPickUp == true && collision.collider.CompareTag("Player"))
         {
-            playerRigidyBody2D.gravityScale = 0.3f;
+            playerRigidyBody2D.gravityScale = lowerGravityStrength;
             lowGravityPickedUp = true;
         }
     }

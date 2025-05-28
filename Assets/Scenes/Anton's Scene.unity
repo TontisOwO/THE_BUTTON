@@ -303,6 +303,10 @@ MonoBehaviour:
   dashStrength: 30
   dashStopSpeed: 160
   dashEnd: 0.1
+  LookDirection: {x: 0, y: 0}
+  lookingRight: 1
+  numberOfDashes: 0
+  maxDashes: 0
   HP: 0
   onGround: 0
   knockbackForce: 0
