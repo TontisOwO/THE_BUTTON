@@ -13,6 +13,9 @@ public class Pickup : MonoBehaviour
             rotation = collision.transform.rotation;
             collision.transform.SetParent(transform);
             collision.transform.SetPositionAndRotation(height + transform.position, rotation);
+
+            DoorScript door = GameObject.Find("DoorController").GetComponent<DoorScript>();
+            door.DoorOpen();
             
         }
     }

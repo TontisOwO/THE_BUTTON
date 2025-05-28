@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4ece167e6682cfe4ca8c6a76d78b3315
+guid: a6d76bd2d6ed9304eaf5534418a84629
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4285725566496601672
-    second: Level_2_Laser_thing_0
+      213: 4296810186505023832
+    second: Level_2_door_uper_part_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level_2_Laser_thing_0
+      name: Level_2_door_uper_part_0
       rect:
         serializedVersion: 2
-        x: 844
-        y: 453
-        width: 654
-        height: 627
+        x: 373
+        y: 636
+        width: 51
+        height: 444
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b90924dd4b0684c0800000000000000
-      internalID: -4285725566496601672
+      spriteID: 85179e1691651ab30800000000000000
+      internalID: 4296810186505023832
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Level_2_Laser_thing_0: -4285725566496601672
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,6 +8,7 @@ TagManager:
   - Mirror
   - Ground
   - Audio
+  - LaserButton
   layers:
   - Default
   - TransparentFX
