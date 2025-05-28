@@ -13,7 +13,7 @@ public class ConfirmMenu : MonoBehaviour
 
     [SerializeField] List<AudioClip> audioList;
 
-    void Awake()
+    void Start()
     {
         source = GetComponent<AudioSource>();
         confirmScreen = this.gameObject;

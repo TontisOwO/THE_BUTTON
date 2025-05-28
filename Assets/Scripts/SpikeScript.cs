@@ -7,7 +7,7 @@ public class SpikeScript : MonoBehaviour
     [SerializeField] bool cooldownActive = false;
 
     [SerializeField] Movement player;
-    void Awake()
+    void Start()
     {
         player = GameObject.Find("Player").GetComponent<Movement>();
     }
