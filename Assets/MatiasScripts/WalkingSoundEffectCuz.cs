@@ -18,5 +18,9 @@ public class WalkingSoundEffectCuz : MonoBehaviour
         {
             audioSource.Play();
         }
+        else if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) || movement.onGround == false)
+        {
+            audioSource.Stop();
+        }
     }
 }
