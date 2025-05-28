@@ -31,9 +31,13 @@ public class Movement : MonoBehaviour
     [SerializeField] float knockbackDuration;
     [SerializeField] SceneLoader SceneLoader;
 
+    Animator myAnimator;
+    SpriteRenderer mySpriteRenderer;
     void Awake()
     {
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
 
     void Start()
@@ -51,9 +55,12 @@ public class Movement : MonoBehaviour
         scale = transform.localScale;
         if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && myRigidbody.linearVelocityX >= -movementSpeedCap)
         {
+
             if (onGround)
             {
+                myAnimator.SetBool("IsRunning", true);
                 lookingRight = false;
+                mySpriteRenderer.flipX = false;
             }
 
             myRigidbody.linearVelocityX -= movementSpeed * Time.deltaTime;
@@ -61,9 +68,12 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && myRigidbody.linearVelocityX <= movementSpeedCap)
         {
+
             if (onGround)
             {
+                myAnimator.SetBool("IsRunning", true);
                 lookingRight = true;
+                mySpriteRenderer.flipX = true;
             }
 
             myRigidbody.linearVelocityX += movementSpeed * Time.deltaTime;
@@ -71,6 +81,8 @@ public class Movement : MonoBehaviour
 
         if ((!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D)) || (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)))
         {
+            myAnimator.SetBool("IsRunning", false);
+
             switch (myRigidbody.linearVelocityX)
             {
                 case < 0:

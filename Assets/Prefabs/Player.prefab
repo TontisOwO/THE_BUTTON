@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 4487287111516408670}
-  coyoteFrames: 0
+  coyoteFrames: 0.1
 --- !u!61 &7868449513238227699
 BoxCollider2D:
   m_ObjectHideFlags: 0

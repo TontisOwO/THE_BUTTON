@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      level_2_Piston_lower_part_0: -3662548666882030928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3,9 +3,14 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     [SerializeField] Movement player;
-    [SerializeField] float cameraMoveSpeed;
+    [SerializeField] float cameraMoveSpeed = 10;
     [SerializeField] float[] levelEdges;
-    Vector2 cameraPosition;
+    Vector3 cameraPosition;
+
+    void Start()
+    {
+        player = GameObject.Find("Player").GetComponent<Movement>();
+    }
 
     void Update()
     {
@@ -27,6 +32,7 @@ public class CameraManager : MonoBehaviour
         {
             cameraPosition.y = levelEdges[3];
         }
+        cameraPosition.z = -10;
         transform.position = cameraPosition;
     }
 }
