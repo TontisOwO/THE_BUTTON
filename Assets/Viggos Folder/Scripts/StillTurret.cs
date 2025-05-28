@@ -21,18 +21,12 @@ public class TurretShootsStraight : MonoBehaviour
     private void Shoot()
     {
         GameObject newBullet = Instantiate(Bullet, Shootpoint.position, Shootpoint.rotation);
-
-        // Skjut rakt framåt i Shootpoints riktning (local right)
         Vector2 direction = Shootpoint.right;
 
         Rigidbody2D rb = newBullet.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
             rb.AddForce(direction * Force, ForceMode2D.Force);
-        }
-        else
-        {
-            Debug.LogWarning("Bullet saknar Rigidbody2D!");
         }
     }
 }
