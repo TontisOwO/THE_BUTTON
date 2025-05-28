@@ -1,0 +1,2639 @@
+fileFormatVersion: 2
+guid: 777ebeb1474b8d343b94b9a124a13cbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5804922121786905488
+    second: Final boss walls_0
+  - first:
+      213: -400162185982640935
+    second: Final boss walls_1
+  - first:
+      213: 6440095958467663222
+    second: Final boss walls_2
+  - first:
+      213: -7415154592365420433
+    second: Final boss walls_3
+  - first:
+      213: 4561819412251989436
+    second: Final boss walls_4
+  - first:
+      213: -590820949274573186
+    second: Final boss walls_5
+  - first:
+      213: 9015252009989927706
+    second: Final boss walls_6
+  - first:
+      213: 6770945095699517163
+    second: Final boss walls_7
+  - first:
+      213: 658800002164768962
+    second: Final boss walls_8
+  - first:
+      213: -4248385280588277500
+    second: Final boss walls_9
+  - first:
+      213: 7149769245745957738
+    second: Final boss walls_10
+  - first:
+      213: -3850439717685208869
+    second: Final boss walls_11
+  - first:
+      213: -4453638209341588731
+    second: Final boss walls_12
+  - first:
+      213: 2437382125118497605
+    second: Final boss walls_13
+  - first:
+      213: -7308911761845445227
+    second: Final boss walls_14
+  - first:
+      213: 3516755809037199948
+    second: Final boss walls_15
+  - first:
+      213: -3015085503972275572
+    second: Final boss walls_16
+  - first:
+      213: -7125537758714633124
+    second: Final boss walls_17
+  - first:
+      213: 3043599341986427058
+    second: Final boss walls_18
+  - first:
+      213: -1644460016523273063
+    second: Final boss walls_19
+  - first:
+      213: 3295958210709886140
+    second: Final boss walls_20
+  - first:
+      213: -6854001984565871646
+    second: Final boss walls_21
+  - first:
+      213: -1692135784481060968
+    second: Final boss walls_22
+  - first:
+      213: -4496476554235237556
+    second: Final boss walls_23
+  - first:
+      213: 4073826300197489532
+    second: Final boss walls_24
+  - first:
+      213: 369131461927569642
+    second: Final boss walls_25
+  - first:
+      213: -7069289427494047797
+    second: Final boss walls_26
+  - first:
+      213: 6942725933300027638
+    second: Final boss walls_27
+  - first:
+      213: 4756696600269149260
+    second: Final boss walls_28
+  - first:
+      213: 8151927850599952045
+    second: Final boss walls_29
+  - first:
+      213: -1900331455431865857
+    second: Final boss walls_30
+  - first:
+      213: 8107099460911541519
+    second: Final boss walls_31
+  - first:
+      213: -4250694879701469738
+    second: Final boss walls_32
+  - first:
+      213: 2745846959170219740
+    second: Final boss walls_33
+  - first:
+      213: -2701729264248402884
+    second: Final boss walls_34
+  - first:
+      213: -1691447362005836390
+    second: Final boss walls_35
+  - first:
+      213: 1013027580755606490
+    second: Final boss walls_36
+  - first:
+      213: -3278426035471259451
+    second: Final boss walls_37
+  - first:
+      213: 4197598363382968649
+    second: Final boss walls_38
+  - first:
+      213: -8043234680723440039
+    second: Final boss walls_39
+  - first:
+      213: -1622203746622703972
+    second: Final boss walls_40
+  - first:
+      213: -6974708094415217161
+    second: Final boss walls_41
+  - first:
+      213: 2555112996760594963
+    second: Final boss walls_42
+  - first:
+      213: -5447731217841206087
+    second: Final boss walls_43
+  - first:
+      213: 3938766903543358331
+    second: Final boss walls_44
+  - first:
+      213: -6342835543923877586
+    second: Final boss walls_45
+  - first:
+      213: 883395814860065388
+    second: Final boss walls_46
+  - first:
+      213: 1784217606889370689
+    second: Final boss walls_47
+  - first:
+      213: 8575150060466199698
+    second: Final boss walls_48
+  - first:
+      213: 8680610695608889819
+    second: Final boss walls_49
+  - first:
+      213: -4351663951637128719
+    second: Final boss walls_50
+  - first:
+      213: -986577348049418758
+    second: Final boss walls_51
+  - first:
+      213: 8976913249154853268
+    second: Final boss walls_52
+  - first:
+      213: -8689667721501167484
+    second: Final boss walls_53
+  - first:
+      213: -7759261546059761275
+    second: Final boss walls_54
+  - first:
+      213: -1726957573566370985
+    second: Final boss walls_55
+  - first:
+      213: 59296213518885299
+    second: Final boss walls_56
+  - first:
+      213: -1414464133733724159
+    second: Final boss walls_57
+  - first:
+      213: 893870895346052662
+    second: Final boss walls_58
+  - first:
+      213: -8007076940386701293
+    second: Final boss walls_59
+  - first:
+      213: -9135534767738742246
+    second: Final boss walls_60
+  - first:
+      213: 3796128188478779078
+    second: Final boss walls_61
+  - first:
+      213: 5545758323367461328
+    second: Final boss walls_62
+  - first:
+      213: -1714484757653267
+    second: Final boss walls_63
+  - first:
+      213: 852561261186567447
+    second: Final boss walls_64
+  - first:
+      213: 1859271821130892018
+    second: Final boss walls_65
+  - first:
+      213: 1914209578886877248
+    second: Final boss walls_66
+  - first:
+      213: 8752133539072697192
+    second: Final boss walls_67
+  - first:
+      213: 4635685355786363559
+    second: Final boss walls_68
+  - first:
+      213: -8603586686291774006
+    second: Final boss walls_69
+  - first:
+      213: 791864401196144391
+    second: Final boss walls_70
+  - first:
+      213: 5628308061388350550
+    second: Final boss walls_71
+  - first:
+      213: 7031604115679323379
+    second: Final boss walls_72
+  - first:
+      213: -7587857278333402908
+    second: Final boss walls_73
+  - first:
+      213: 2185126272991462301
+    second: Final boss walls_74
+  - first:
+      213: 5825739088687987125
+    second: Final boss walls_75
+  - first:
+      213: 1033641284638730592
+    second: Final boss walls_76
+  - first:
+      213: 469545040597539815
+    second: Final boss walls_77
+  - first:
+      213: 5732416267600525777
+    second: Final boss walls_78
+  - first:
+      213: 4589859872775899122
+    second: Final boss walls_79
+  - first:
+      213: 4612044487972961382
+    second: Final boss walls_80
+  - first:
+      213: -3848032357376353207
+    second: Final boss walls_81
+  - first:
+      213: 1106045418296815859
+    second: Final boss walls_82
+  - first:
+      213: 6997649645359044712
+    second: Final boss walls_83
+  - first:
+      213: -1214127589286215081
+    second: Final boss walls_84
+  - first:
+      213: -3393874958475073005
+    second: Final boss walls_85
+  - first:
+      213: 2464868378661909138
+    second: Final boss walls_86
+  - first:
+      213: 7035499323573346763
+    second: Final boss walls_87
+  - first:
+      213: -4647132413205174079
+    second: Final boss walls_88
+  - first:
+      213: -8080471916740899372
+    second: Final boss walls_89
+  - first:
+      213: -4209986421573469257
+    second: Final boss walls_90
+  - first:
+      213: -8155452162800238909
+    second: Final boss walls_91
+  - first:
+      213: -6524096488406531058
+    second: Final boss walls_92
+  - first:
+      213: 5876494609997617595
+    second: Final boss walls_93
+  - first:
+      213: 8808419493548018810
+    second: Final boss walls_94
+  - first:
+      213: 277784587522587715
+    second: Final boss walls_95
+  - first:
+      213: 6203868546318782282
+    second: Final boss walls_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final boss walls_0
+      rect:
+        serializedVersion: 2
+        x: 7546
+        y: 0
+        width: 7814
+        height: 1280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0935ae9f9e93f8050800000000000000
+      internalID: 5804922121786905488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_1
+      rect:
+        serializedVersion: 2
+        x: 11046
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcf5fbac96527af0800000000000000
+      internalID: -400162185982640935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_2
+      rect:
+        serializedVersion: 2
+        x: 11079
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675d4e33721df5950800000000000000
+      internalID: 6440095958467663222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_3
+      rect:
+        serializedVersion: 2
+        x: 11146
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60e3777f24181990800000000000000
+      internalID: -7415154592365420433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_4
+      rect:
+        serializedVersion: 2
+        x: 11179
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5d2ccf596de4f30800000000000000
+      internalID: 4561819412251989436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_5
+      rect:
+        serializedVersion: 2
+        x: 11246
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7641a81a7bfcc7f0800000000000000
+      internalID: -590820949274573186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_6
+      rect:
+        serializedVersion: 2
+        x: 11279
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13731030fb9c1d70800000000000000
+      internalID: 9015252009989927706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_7
+      rect:
+        serializedVersion: 2
+        x: 11346
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beec7d6c0ba37fd50800000000000000
+      internalID: 6770945095699517163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_8
+      rect:
+        serializedVersion: 2
+        x: 11379
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0ce0b8c17842900800000000000000
+      internalID: 658800002164768962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_9
+      rect:
+        serializedVersion: 2
+        x: 11446
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4099981a814ba05c0800000000000000
+      internalID: -4248385280588277500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_10
+      rect:
+        serializedVersion: 2
+        x: 11479
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b43b67f35193360800000000000000
+      internalID: 7149769245745957738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_11
+      rect:
+        serializedVersion: 2
+        x: 11546
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8515e2a7d709ac0800000000000000
+      internalID: -3850439717685208869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_12
+      rect:
+        serializedVersion: 2
+        x: 11579
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b761e15af7132c0800000000000000
+      internalID: -4453638209341588731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_13
+      rect:
+        serializedVersion: 2
+        x: 11646
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5432395012253d120800000000000000
+      internalID: 2437382125118497605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_14
+      rect:
+        serializedVersion: 2
+        x: 11679
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d17841a77819a90800000000000000
+      internalID: -7308911761845445227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_15
+      rect:
+        serializedVersion: 2
+        x: 11746
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a247796c60ec030800000000000000
+      internalID: 3516755809037199948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_16
+      rect:
+        serializedVersion: 2
+        x: 11779
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a8d4075b34826d0800000000000000
+      internalID: -3015085503972275572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_17
+      rect:
+        serializedVersion: 2
+        x: 11846
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c546e2249210d1d90800000000000000
+      internalID: -7125537758714633124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_18
+      rect:
+        serializedVersion: 2
+        x: 11879
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0b6b1d9790d3a20800000000000000
+      internalID: 3043599341986427058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_19
+      rect:
+        serializedVersion: 2
+        x: 11946
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1cc3e354bd29e0800000000000000
+      internalID: -1644460016523273063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_20
+      rect:
+        serializedVersion: 2
+        x: 11979
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb415e7a7889dbd20800000000000000
+      internalID: 3295958210709886140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_21
+      rect:
+        serializedVersion: 2
+        x: 12046
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebf0245281b1e0a0800000000000000
+      internalID: -6854001984565871646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_22
+      rect:
+        serializedVersion: 2
+        x: 12079
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897874628735488e0800000000000000
+      internalID: -1692135784481060968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_23
+      rect:
+        serializedVersion: 2
+        x: 12146
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4bafe3b56e4991c0800000000000000
+      internalID: -4496476554235237556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_24
+      rect:
+        serializedVersion: 2
+        x: 12179
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b4aeb9f63298830800000000000000
+      internalID: 4073826300197489532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_25
+      rect:
+        serializedVersion: 2
+        x: 12246
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae80d9fdb1b6f1500800000000000000
+      internalID: 369131461927569642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_26
+      rect:
+        serializedVersion: 2
+        x: 12279
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfeacb68b6d4ed90800000000000000
+      internalID: -7069289427494047797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_27
+      rect:
+        serializedVersion: 2
+        x: 12346
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f09d33c374895060800000000000000
+      internalID: 6942725933300027638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_28
+      rect:
+        serializedVersion: 2
+        x: 12379
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44d95b1b5e230240800000000000000
+      internalID: 4756696600269149260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_29
+      rect:
+        serializedVersion: 2
+        x: 12446
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daeaf997037712170800000000000000
+      internalID: 8151927850599952045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_30
+      rect:
+        serializedVersion: 2
+        x: 12479
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff98b731c9aa0a5e0800000000000000
+      internalID: -1900331455431865857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_31
+      rect:
+        serializedVersion: 2
+        x: 12546
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0da466a104328070800000000000000
+      internalID: 8107099460911541519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_32
+      rect:
+        serializedVersion: 2
+        x: 12579
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d572de278f7205c0800000000000000
+      internalID: -4250694879701469738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_33
+      rect:
+        serializedVersion: 2
+        x: 12646
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde6de0e2453b1620800000000000000
+      internalID: 2745846959170219740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_34
+      rect:
+        serializedVersion: 2
+        x: 12679
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c423d6c87818ad0800000000000000
+      internalID: -2701729264248402884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_35
+      rect:
+        serializedVersion: 2
+        x: 12746
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dde5ff595c688e0800000000000000
+      internalID: -1691447362005836390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_36
+      rect:
+        serializedVersion: 2
+        x: 12779
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb7c9aa73ffe0e00800000000000000
+      internalID: 1013027580755606490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_37
+      rect:
+        serializedVersion: 2
+        x: 12846
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8e75df3e0b082d0800000000000000
+      internalID: -3278426035471259451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_38
+      rect:
+        serializedVersion: 2
+        x: 12879
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941f33fb87dd04a30800000000000000
+      internalID: 4197598363382968649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_39
+      rect:
+        serializedVersion: 2
+        x: 12946
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e706a3ca0b06090800000000000000
+      internalID: -8043234680723440039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_40
+      rect:
+        serializedVersion: 2
+        x: 12979
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96fe398946cc79e0800000000000000
+      internalID: -1622203746622703972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_41
+      rect:
+        serializedVersion: 2
+        x: 13046
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdd65411fbd43f90800000000000000
+      internalID: -6974708094415217161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_42
+      rect:
+        serializedVersion: 2
+        x: 13079
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a26e4abb5957320800000000000000
+      internalID: 2555112996760594963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_43
+      rect:
+        serializedVersion: 2
+        x: 13146
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcc4c81255c564b0800000000000000
+      internalID: -5447731217841206087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_44
+      rect:
+        serializedVersion: 2
+        x: 13179
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7364ca51af49a630800000000000000
+      internalID: 3938766903543358331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_45
+      rect:
+        serializedVersion: 2
+        x: 13246
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2912b7bda8b9f7a0800000000000000
+      internalID: -6342835543923877586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_46
+      rect:
+        serializedVersion: 2
+        x: 13279
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a0dcc20d3724c00800000000000000
+      internalID: 883395814860065388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_47
+      rect:
+        serializedVersion: 2
+        x: 13346
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14473a4d570d2c810800000000000000
+      internalID: 1784217606889370689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_48
+      rect:
+        serializedVersion: 2
+        x: 13379
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cd1c10c8d010770800000000000000
+      internalID: 8575150060466199698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_49
+      rect:
+        serializedVersion: 2
+        x: 13446
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd179319f69b77870800000000000000
+      internalID: 8680610695608889819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_50
+      rect:
+        serializedVersion: 2
+        x: 13479
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9dbcc21b8cb93c0800000000000000
+      internalID: -4351663951637128719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_51
+      rect:
+        serializedVersion: 2
+        x: 13546
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5411a0129fe42f0800000000000000
+      internalID: -986577348049418758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_52
+      rect:
+        serializedVersion: 2
+        x: 13579
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4996f53d907649c70800000000000000
+      internalID: 8976913249154853268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_53
+      rect:
+        serializedVersion: 2
+        x: 13646
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480beb34f39186780800000000000000
+      internalID: -8689667721501167484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_54
+      rect:
+        serializedVersion: 2
+        x: 13679
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58972c3fbb0915490800000000000000
+      internalID: -7759261546059761275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_55
+      rect:
+        serializedVersion: 2
+        x: 13746
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75be7659c3d9808e0800000000000000
+      internalID: -1726957573566370985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_56
+      rect:
+        serializedVersion: 2
+        x: 13779
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1a15f8799a2d000800000000000000
+      internalID: 59296213518885299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_57
+      rect:
+        serializedVersion: 2
+        x: 13846
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10055415d50de5ce0800000000000000
+      internalID: -1414464133733724159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_58
+      rect:
+        serializedVersion: 2
+        x: 13879
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e6928e7daa76c00800000000000000
+      internalID: 893870895346052662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_59
+      rect:
+        serializedVersion: 2
+        x: 13946
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310770f22f521e090800000000000000
+      internalID: -8007076940386701293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_60
+      rect:
+        serializedVersion: 2
+        x: 13979
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a93b7e78f083180800000000000000
+      internalID: -9135534767738742246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_61
+      rect:
+        serializedVersion: 2
+        x: 14046
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceef14897e8ea430800000000000000
+      internalID: 3796128188478779078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_62
+      rect:
+        serializedVersion: 2
+        x: 14079
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1cb7affcd76fc40800000000000000
+      internalID: 5545758323367461328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_63
+      rect:
+        serializedVersion: 2
+        x: 14146
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de81c096fa8e9fff0800000000000000
+      internalID: -1714484757653267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_64
+      rect:
+        serializedVersion: 2
+        x: 14179
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dc84233f7e4db00800000000000000
+      internalID: 852561261186567447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_65
+      rect:
+        serializedVersion: 2
+        x: 14246
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f28667ded57dc910800000000000000
+      internalID: 1859271821130892018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_66
+      rect:
+        serializedVersion: 2
+        x: 14279
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040d3375873a09a10800000000000000
+      internalID: 1914209578886877248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_67
+      rect:
+        serializedVersion: 2
+        x: 14346
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863e53f3513d57970800000000000000
+      internalID: 8752133539072697192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_68
+      rect:
+        serializedVersion: 2
+        x: 14379
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2602a2543455040800000000000000
+      internalID: 4635685355786363559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_69
+      rect:
+        serializedVersion: 2
+        x: 14446
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac57c491e7be99880800000000000000
+      internalID: -8603586686291774006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_70
+      rect:
+        serializedVersion: 2
+        x: 14479
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707d2973a744dfa00800000000000000
+      internalID: 791864401196144391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_71
+      rect:
+        serializedVersion: 2
+        x: 14546
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654258d9c54cb1e40800000000000000
+      internalID: 5628308061388350550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_72
+      rect:
+        serializedVersion: 2
+        x: 14579
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4ad3c20b6459160800000000000000
+      internalID: 7031604115679323379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_73
+      rect:
+        serializedVersion: 2
+        x: 14646
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0439ee10482b690800000000000000
+      internalID: -7587857278333402908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_74
+      rect:
+        serializedVersion: 2
+        x: 14679
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93870b94c0235e10800000000000000
+      internalID: 2185126272991462301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_75
+      rect:
+        serializedVersion: 2
+        x: 14746
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9fa57c5de29d050800000000000000
+      internalID: 5825739088687987125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_76
+      rect:
+        serializedVersion: 2
+        x: 14779
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069e11c954b385e00800000000000000
+      internalID: 1033641284638730592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_77
+      rect:
+        serializedVersion: 2
+        x: 14846
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebdcd60ab8248600800000000000000
+      internalID: 469545040597539815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_78
+      rect:
+        serializedVersion: 2
+        x: 14879
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9fff64932ad8f40800000000000000
+      internalID: 5732416267600525777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_79
+      rect:
+        serializedVersion: 2
+        x: 14946
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f780a57c3572bf30800000000000000
+      internalID: 4589859872775899122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_80
+      rect:
+        serializedVersion: 2
+        x: 14979
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c3de1b606410040800000000000000
+      internalID: 4612044487972961382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_81
+      rect:
+        serializedVersion: 2
+        x: 15046
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c9f5e65fa099ac0800000000000000
+      internalID: -3848032357376353207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_82
+      rect:
+        serializedVersion: 2
+        x: 15079
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0b707a276795f00800000000000000
+      internalID: 1106045418296815859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_83
+      rect:
+        serializedVersion: 2
+        x: 15146
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868934ef645ac1160800000000000000
+      internalID: 6997649645359044712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_84
+      rect:
+        serializedVersion: 2
+        x: 15179
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7520898e36d862fe0800000000000000
+      internalID: -1214127589286215081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_85
+      rect:
+        serializedVersion: 2
+        x: 15246
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aefffe4b886e0d0800000000000000
+      internalID: -3393874958475073005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_86
+      rect:
+        serializedVersion: 2
+        x: 15279
+        y: 1269
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2927c302bb8f43220800000000000000
+      internalID: 2464868378661909138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_87
+      rect:
+        serializedVersion: 2
+        x: 15346
+        y: 1268
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1271feb5d13a160800000000000000
+      internalID: 7035499323573346763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1648
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8a3b611b1128fb0800000000000000
+      internalID: -4647132413205174079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_89
+      rect:
+        serializedVersion: 2
+        x: 7535
+        y: 696
+        width: 282
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd83299a956cdf80800000000000000
+      internalID: -8080471916740899372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_90
+      rect:
+        serializedVersion: 2
+        x: 7523
+        y: 2
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb35e0b7af1395c0800000000000000
+      internalID: -4209986421573469257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_91
+      rect:
+        serializedVersion: 2
+        x: 7534
+        y: 4
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceb995a77302de80800000000000000
+      internalID: -8155452162800238909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_92
+      rect:
+        serializedVersion: 2
+        x: 7545
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04c7285fc0c575a0800000000000000
+      internalID: -6524096488406531058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_93
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9d76976b08d8150800000000000000
+      internalID: 5876494609997617595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_94
+      rect:
+        serializedVersion: 2
+        x: 7558
+        y: 12
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c4e814cdacd3a70800000000000000
+      internalID: 8808419493548018810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_95
+      rect:
+        serializedVersion: 2
+        x: 7536
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cbc5f4c93ead300800000000000000
+      internalID: 277784587522587715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final boss walls_96
+      rect:
+        serializedVersion: 2
+        x: 7542
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fcc88c291981650800000000000000
+      internalID: 6203868546318782282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Final boss walls_0: 5804922121786905488
+      Final boss walls_1: -400162185982640935
+      Final boss walls_10: 7149769245745957738
+      Final boss walls_11: -3850439717685208869
+      Final boss walls_12: -4453638209341588731
+      Final boss walls_13: 2437382125118497605
+      Final boss walls_14: -7308911761845445227
+      Final boss walls_15: 3516755809037199948
+      Final boss walls_16: -3015085503972275572
+      Final boss walls_17: -7125537758714633124
+      Final boss walls_18: 3043599341986427058
+      Final boss walls_19: -1644460016523273063
+      Final boss walls_2: 6440095958467663222
+      Final boss walls_20: 3295958210709886140
+      Final boss walls_21: -6854001984565871646
+      Final boss walls_22: -1692135784481060968
+      Final boss walls_23: -4496476554235237556
+      Final boss walls_24: 4073826300197489532
+      Final boss walls_25: 369131461927569642
+      Final boss walls_26: -7069289427494047797
+      Final boss walls_27: 6942725933300027638
+      Final boss walls_28: 4756696600269149260
+      Final boss walls_29: 8151927850599952045
+      Final boss walls_3: -7415154592365420433
+      Final boss walls_30: -1900331455431865857
+      Final boss walls_31: 8107099460911541519
+      Final boss walls_32: -4250694879701469738
+      Final boss walls_33: 2745846959170219740
+      Final boss walls_34: -2701729264248402884
+      Final boss walls_35: -1691447362005836390
+      Final boss walls_36: 1013027580755606490
+      Final boss walls_37: -3278426035471259451
+      Final boss walls_38: 4197598363382968649
+      Final boss walls_39: -8043234680723440039
+      Final boss walls_4: 4561819412251989436
+      Final boss walls_40: -1622203746622703972
+      Final boss walls_41: -6974708094415217161
+      Final boss walls_42: 2555112996760594963
+      Final boss walls_43: -5447731217841206087
+      Final boss walls_44: 3938766903543358331
+      Final boss walls_45: -6342835543923877586
+      Final boss walls_46: 883395814860065388
+      Final boss walls_47: 1784217606889370689
+      Final boss walls_48: 8575150060466199698
+      Final boss walls_49: 8680610695608889819
+      Final boss walls_5: -590820949274573186
+      Final boss walls_50: -4351663951637128719
+      Final boss walls_51: -986577348049418758
+      Final boss walls_52: 8976913249154853268
+      Final boss walls_53: -8689667721501167484
+      Final boss walls_54: -7759261546059761275
+      Final boss walls_55: -1726957573566370985
+      Final boss walls_56: 59296213518885299
+      Final boss walls_57: -1414464133733724159
+      Final boss walls_58: 893870895346052662
+      Final boss walls_59: -8007076940386701293
+      Final boss walls_6: 9015252009989927706
+      Final boss walls_60: -9135534767738742246
+      Final boss walls_61: 3796128188478779078
+      Final boss walls_62: 5545758323367461328
+      Final boss walls_63: -1714484757653267
+      Final boss walls_64: 852561261186567447
+      Final boss walls_65: 1859271821130892018
+      Final boss walls_66: 1914209578886877248
+      Final boss walls_67: 8752133539072697192
+      Final boss walls_68: 4635685355786363559
+      Final boss walls_69: -8603586686291774006
+      Final boss walls_7: 6770945095699517163
+      Final boss walls_70: 791864401196144391
+      Final boss walls_71: 5628308061388350550
+      Final boss walls_72: 7031604115679323379
+      Final boss walls_73: -7587857278333402908
+      Final boss walls_74: 2185126272991462301
+      Final boss walls_75: 5825739088687987125
+      Final boss walls_76: 1033641284638730592
+      Final boss walls_77: 469545040597539815
+      Final boss walls_78: 5732416267600525777
+      Final boss walls_79: 4589859872775899122
+      Final boss walls_8: 658800002164768962
+      Final boss walls_80: 4612044487972961382
+      Final boss walls_81: -3848032357376353207
+      Final boss walls_82: 1106045418296815859
+      Final boss walls_83: 6997649645359044712
+      Final boss walls_84: -1214127589286215081
+      Final boss walls_85: -3393874958475073005
+      Final boss walls_86: 2464868378661909138
+      Final boss walls_87: 7035499323573346763
+      Final boss walls_88: -4647132413205174079
+      Final boss walls_89: -8080471916740899372
+      Final boss walls_9: -4248385280588277500
+      Final boss walls_90: -4209986421573469257
+      Final boss walls_91: -8155452162800238909
+      Final boss walls_92: -6524096488406531058
+      Final boss walls_93: 5876494609997617595
+      Final boss walls_94: 8808419493548018810
+      Final boss walls_95: 277784587522587715
+      Final boss walls_96: 6203868546318782282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

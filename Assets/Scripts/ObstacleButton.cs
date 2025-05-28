@@ -9,7 +9,7 @@ public class ObstacleButton : MonoBehaviour
     [SerializeField] bool isBigButton;
     [SerializeField] bool isActivated = false;
     
-    void Awake()
+    void Start()
     {
         player = GameObject.Find("Player").GetComponent<Movement>();
     }

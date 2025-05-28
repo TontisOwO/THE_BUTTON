@@ -7,6 +7,7 @@ public class LazerFire : MonoBehaviour
     public bool isActive;
     [SerializeField] int currentFrame;
     [SerializeField] int reflections;
+    [SerializeField] int orderInLayer;
     [SerializeField] float maxRayLength;
     [SerializeField] float time;
     [SerializeField] float animationRate;
@@ -67,7 +68,7 @@ public class LazerFire : MonoBehaviour
                 children[i].GetComponent<LineRenderer>().material = myMaterial[currentFrame];
                 children[i].GetComponent<LineRenderer>().material.mainTextureOffset = offset;
                 children[i].GetComponent<LineRenderer>().textureMode = LineTextureMode.Tile;
-                children[i].GetComponent<LineRenderer>().sortingOrder = - 50 + i;
+                children[i].GetComponent<LineRenderer>().sortingOrder = orderInLayer + i;
                 children[i].transform.parent = transform;
                 myLineRenderer[i] = children[i].GetComponent<LineRenderer>();
                 RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, remainingRayLength, ignoreLayer);

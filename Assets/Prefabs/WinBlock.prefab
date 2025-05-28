@@ -149,4 +149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFader: {fileID: 0}
   sceneName: Level 1
-  debugTrigger: 0
+  isWinObject: 1
+  loadingScene: 0
+  currentLevel: Level 1
+  confirmMenu: {fileID: 0}
+  pressedOnce: 0
