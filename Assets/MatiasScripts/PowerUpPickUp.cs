@@ -20,11 +20,14 @@ public class PowerUpPickUp : MonoBehaviour
     public float speedBuffStrength;
 
 
+    AudioManager audioManager;
+
     private void Awake()
     {
         pickUpCollider2D = GetComponent<Collider2D>();  
         spriteRenderer = GetComponent<SpriteRenderer>();    
         pickUpRigidBody2D = GetComponent<Rigidbody2D>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void Update()
@@ -71,6 +74,7 @@ public class PowerUpPickUp : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            audioManager.playSFX(audioManager.BuffPickUp);
             Destroy(spriteRenderer);
             Destroy(pickUpRigidBody2D);
             Destroy(pickUpCollider2D);

@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 1721843835375011624}
   - component: {fileID: 5087315765987126745}
   - component: {fileID: 9047038459791900949}
+  - component: {fileID: 7147107879821939963}
   m_Layer: 0
   m_Name: TurretHead
   m_TagString: Untagged
@@ -191,6 +192,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.00000047683716}
   m_Size: {x: 1.0000002, y: 2.0000005}
   m_Direction: 0
+--- !u!114 &7147107879821939963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7163678123451326241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1112296e8dce1349b19b254d62bd3bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DetectionRange: 10
+  FireRate: 1
+  Force: 50
+  PlayerTransform: {fileID: 0}
+  TurretHead: {fileID: 7163678123451326241}
+  Bullet: {fileID: 392621412770555832, guid: ee9e3f0997681bb43b5f4cea75520f49, type: 3}
+  AlarmLight: {fileID: 7481871640775767983}
+  Shootpoint: {fileID: 8528879807444822338}
+  playerDetected: 0
 --- !u!1 &7481871640775767983
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +239,7 @@ Transform:
   m_GameObject: {fileID: 7481871640775767983}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.59999996, z: 0}
+  m_LocalPosition: {x: 0, y: -0.59999996, z: -1}
   m_LocalScale: {x: 0.5999999, y: 0.5999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

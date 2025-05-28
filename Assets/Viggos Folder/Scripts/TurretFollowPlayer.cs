@@ -18,6 +18,13 @@ public class TurretFollowPlayer : MonoBehaviour
 
     float nextTimeToFire = 0;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void FixedUpdate()
     {
         Vector2 targetPos = PlayerTransform.position;
@@ -43,6 +50,7 @@ public class TurretFollowPlayer : MonoBehaviour
 
     private void shoot()
     {
+        audioManager.playSFX(audioManager.Turret);
         GameObject newBullet = Instantiate(Bullet, Shootpoint.position, Quaternion.identity);
         newBullet.GetComponent<Rigidbody2D>().AddForce(Direction * Force, ForceMode2D.Force);
     }
