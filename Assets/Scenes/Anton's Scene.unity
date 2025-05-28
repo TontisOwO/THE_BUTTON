@@ -306,8 +306,9 @@ MonoBehaviour:
   LookDirection: {x: 0, y: 0}
   lookingRight: 1
   numberOfDashes: 0
-  maxDashes: 0
+  maxDashes: 1
   HP: 0
+  dashing: 0
   onGround: 0
   knockbackForce: 0
   knockbackDuration: 0

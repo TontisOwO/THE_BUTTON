@@ -29,10 +29,16 @@ public class Movement : MonoBehaviour
     bool isKnockback;
     [SerializeField] float knockbackForce;
     [SerializeField] float knockbackDuration;
+    [SerializeField] SceneLoader SceneLoader;
 
     void Awake()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    void Start()
+    {
+        SceneLoader = GameObject.Find("GameManager").GetComponent<SceneLoader>();
     }
 
     void Update()
@@ -312,6 +318,10 @@ public class Movement : MonoBehaviour
         HP -= damage;
         Vector2 direction = -(other.transform.position - this.transform.position).normalized;
         StartCoroutine(KnockbackCoroutine(direction));
+        if (HP <= 0)
+        {
+            SceneLoader.YouFuckingDiedYouLoser();
+        }
     }
 
     IEnumerator KnockbackCoroutine(Vector2 direction)
